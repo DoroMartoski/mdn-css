@@ -1,0 +1,6 @@
+When multiple CSS rules have matching elements, which selector is applied depends on 3 factors:
+Importance, Specificity and Source order.
+
+Importance:adding the "!important" keyword(this should be rarely used unless if it is very vital) to the end of a property will cause it to always win out and be applied over any other rule.
+Specificity: id and class selectors have higher specifity than element selectors but id selectors have even higher.
+Source order: If multiple competing selectors have the same importance and specificity, the later rule in the order will win over earlier rules.
